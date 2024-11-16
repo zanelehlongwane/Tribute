@@ -169,6 +169,8 @@ background-attachment: fixed; /* Makes the background stay fixed when scrolling 
   body {
     padding: 0;
     margin: 0;
+    width: fit-content;
+    height: fit-content;
   }
 
   main {
