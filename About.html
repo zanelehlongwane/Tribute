@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Bill Gates</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class ="about">
+    <div id="div1" class="fa"></div>
+    <h1>All About Bill Gates</h1>
+    <hr>
+
+    <ul>
+<h2>Overview about Gates</h2>
+        <li>Date of Birth: October 28, 1955</li>
+          <li>Place of Birth: Seattle, Washington, USA</li>
+            <li>Nationality: American</li>
+            <li>Occupation: Business magnate, software developer, philanthropist, author</li>
+            <li>Net Worth: Approximately $114 billion (as of 2024)</li>
+
+            </li>
+
+<hr>
+            <h2>Education</h2>
+            <li>Born into a well-educated family with a lawyer father and a teacher mother.</li>
+            <li>Attended Harvard University, but dropped out in 1975 to pursue a career in technology.</li>
+            <li>Gates wrote his first computer program at age 13.</li>
+            <hr>
+            <h2>Key Achievements & Recognition</h2>
+            <li>Named Time's Person of the Year (along with Melinda Gates and U2's Bono) in 2005 for their philanthropic work.</li>
+              <li> Ranked consistently on Forbes’ Billionaires List.</li>
+               <li>Author of books like "The Road Ahead" (1995) and "How to Avoid a Climate Disaster" (2021).</li>
+                <li>Awarded the Presidential Medal of Freedom in 2016 by President Barack Obama.</li>
+                <li>Significant work in climate change, funding clean energy innovations.</li>
+<hr>
+                <h2>Personal life</h2>
+                <li>Married: Melinda French Gates in 1994; divorced in 2021 after 27 years of marriage.</li>
+                  <li>  Children: Three children – Jennifer, Rory, and Phoebe Gates.</li>
+                   <li> Enjoys reading, playing bridge, and a passion for technology and innovation.</li>
+                   <li> Wealth Pledge: Bill and Melinda Gates, along with Warren Buffett, signed the Giving Pledge, committing to donate the majority of their wealth to charity.</li>
+    </ul>
+    <script>
+        function hourglass() {
+          var a;
+          a = document.getElementById("div1");
+          a.innerHTML = "&#xf251;";
+          setTimeout(function () {
+              a.innerHTML = "&#xf252;";
+            }, 1000);
+          setTimeout(function () {
+              a.innerHTML = "&#xf253;";
+            }, 2000);
+        }
+        hourglass();
+        setInterval(hourglass, 3000);
+        </script>
+</body>
+</html>
